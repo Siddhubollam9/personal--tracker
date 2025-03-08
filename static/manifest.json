@@ -1,0 +1,21 @@
+{
+  "short_name": "Progress Tracker",
+  "name": "Progress Tracker App",
+  "icons": [
+    {
+      "src": "{{ url_for('static', filename='images/download1.jpg') }}",
+      "type": "image/jpg",
+      "sizes": "192x192"
+    },
+    {
+      "src": "{{ url_for('static', filename='images/download4.jpg') }}",
+      "type": "image/jpg",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#007bff"
+}
